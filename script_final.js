@@ -183,10 +183,13 @@ var mySwiper = new Swiper(".swiper-1-col", {
 var mySwiper = new Swiper(".swiper-hero", {
   effect: "fade",
   loop: true,
+  speed: 0,
+
   autoplay: {
-    delay: 1500,
+    delay: 250,
     disableOnInteraction: false
   },
+
   fadeEffect: {
     crossFade: true
   }
