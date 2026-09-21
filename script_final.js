@@ -183,16 +183,19 @@ var mySwiper = new Swiper(".swiper-1-col", {
 var mySwiper = new Swiper(".swiper-hero", {
   effect: "fade",
   loop: true,
-  speed: 0,
+  speed: 1,
 
   autoplay: {
     delay: 250,
-    disableOnInteraction: false
+    disableOnInteraction: false,
+    stopOnLastSlide: false
   },
 
   fadeEffect: {
     crossFade: true
-  }
+  },
+
+  allowTouchMove: false
 });
 
 //Thumbnail Swiper
